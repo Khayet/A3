@@ -1,0 +1,2 @@
+/home/moka3156/Dokumente/prog/A3/build/CMakeFiles/aufgabe1.dir
+/home/moka3156/Dokumente/prog/A3/build/CMakeFiles/aufgabe2bis4.dir

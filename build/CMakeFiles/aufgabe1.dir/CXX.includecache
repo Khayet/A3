@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/moka3156/Dokumente/prog/A3/aufgabe1.cpp
+cstdlib
+-
+vector
+-
+list
+-
+iostream
+-
+iterator
+-
+algorithm
+-
+
