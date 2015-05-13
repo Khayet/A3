@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moka3156/Dokumente/prog/A3
+CMAKE_SOURCE_DIR = /home/moka3156/Dokumente/A3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moka3156/Dokumente/prog/A3/build
+CMAKE_BINARY_DIR = /home/moka3156/Dokumente/A3/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aufgabe1.dir/depend.make
@@ -48,17 +48,17 @@ include CMakeFiles/aufgabe1.dir/flags.make
 
 CMakeFiles/aufgabe1.dir/aufgabe1.cpp.o: CMakeFiles/aufgabe1.dir/flags.make
 CMakeFiles/aufgabe1.dir/aufgabe1.cpp.o: ../aufgabe1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/moka3156/Dokumente/prog/A3/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/moka3156/Dokumente/A3/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/aufgabe1.dir/aufgabe1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aufgabe1.dir/aufgabe1.cpp.o -c /home/moka3156/Dokumente/prog/A3/aufgabe1.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/aufgabe1.dir/aufgabe1.cpp.o -c /home/moka3156/Dokumente/A3/aufgabe1.cpp
 
 CMakeFiles/aufgabe1.dir/aufgabe1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aufgabe1.dir/aufgabe1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/moka3156/Dokumente/prog/A3/aufgabe1.cpp > CMakeFiles/aufgabe1.dir/aufgabe1.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/moka3156/Dokumente/A3/aufgabe1.cpp > CMakeFiles/aufgabe1.dir/aufgabe1.cpp.i
 
 CMakeFiles/aufgabe1.dir/aufgabe1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aufgabe1.dir/aufgabe1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/moka3156/Dokumente/prog/A3/aufgabe1.cpp -o CMakeFiles/aufgabe1.dir/aufgabe1.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/moka3156/Dokumente/A3/aufgabe1.cpp -o CMakeFiles/aufgabe1.dir/aufgabe1.cpp.s
 
 CMakeFiles/aufgabe1.dir/aufgabe1.cpp.o.requires:
 .PHONY : CMakeFiles/aufgabe1.dir/aufgabe1.cpp.o.requires
@@ -94,6 +94,6 @@ CMakeFiles/aufgabe1.dir/clean:
 .PHONY : CMakeFiles/aufgabe1.dir/clean
 
 CMakeFiles/aufgabe1.dir/depend:
-	cd /home/moka3156/Dokumente/prog/A3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moka3156/Dokumente/prog/A3 /home/moka3156/Dokumente/prog/A3 /home/moka3156/Dokumente/prog/A3/build /home/moka3156/Dokumente/prog/A3/build /home/moka3156/Dokumente/prog/A3/build/CMakeFiles/aufgabe1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/moka3156/Dokumente/A3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/moka3156/Dokumente/A3 /home/moka3156/Dokumente/A3 /home/moka3156/Dokumente/A3/build /home/moka3156/Dokumente/A3/build /home/moka3156/Dokumente/A3/build/CMakeFiles/aufgabe1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aufgabe1.dir/depend
 

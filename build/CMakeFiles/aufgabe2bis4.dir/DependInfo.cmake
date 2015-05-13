@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/moka3156/Dokumente/prog/A3/aufgabe2bis4.cpp" "/home/moka3156/Dokumente/prog/A3/build/CMakeFiles/aufgabe2bis4.dir/aufgabe2bis4.cpp.o"
+  "/home/moka3156/Dokumente/A3/aufgabe2bis4.cpp" "/home/moka3156/Dokumente/A3/build/CMakeFiles/aufgabe2bis4.dir/aufgabe2bis4.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
