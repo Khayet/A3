@@ -134,6 +134,19 @@ aufgabe5/fast:
 	$(MAKE) -f CMakeFiles/aufgabe5.dir/build.make CMakeFiles/aufgabe5.dir/build
 .PHONY : aufgabe5/fast
 
+#=============================================================================
+# Target rules for targets named aufgabe6
+
+# Build rule for target.
+aufgabe6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe6
+.PHONY : aufgabe6
+
+# fast build rule for target.
+aufgabe6/fast:
+	$(MAKE) -f CMakeFiles/aufgabe6.dir/build.make CMakeFiles/aufgabe6.dir/build
+.PHONY : aufgabe6/fast
+
 aufgabe1.o: aufgabe1.cpp.o
 .PHONY : aufgabe1.o
 
@@ -206,6 +219,30 @@ aufgabe5.cpp.s:
 	$(MAKE) -f CMakeFiles/aufgabe5.dir/build.make CMakeFiles/aufgabe5.dir/aufgabe5.cpp.s
 .PHONY : aufgabe5.cpp.s
 
+aufgabe6.o: aufgabe6.cpp.o
+.PHONY : aufgabe6.o
+
+# target to build an object file
+aufgabe6.cpp.o:
+	$(MAKE) -f CMakeFiles/aufgabe6.dir/build.make CMakeFiles/aufgabe6.dir/aufgabe6.cpp.o
+.PHONY : aufgabe6.cpp.o
+
+aufgabe6.i: aufgabe6.cpp.i
+.PHONY : aufgabe6.i
+
+# target to preprocess a source file
+aufgabe6.cpp.i:
+	$(MAKE) -f CMakeFiles/aufgabe6.dir/build.make CMakeFiles/aufgabe6.dir/aufgabe6.cpp.i
+.PHONY : aufgabe6.cpp.i
+
+aufgabe6.s: aufgabe6.cpp.s
+.PHONY : aufgabe6.s
+
+# target to generate assembly for a file
+aufgabe6.cpp.s:
+	$(MAKE) -f CMakeFiles/aufgabe6.dir/build.make CMakeFiles/aufgabe6.dir/aufgabe6.cpp.s
+.PHONY : aufgabe6.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -215,6 +252,7 @@ help:
 	@echo "... aufgabe1"
 	@echo "... aufgabe2bis4"
 	@echo "... aufgabe5"
+	@echo "... aufgabe6"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... aufgabe1.o"
@@ -226,6 +264,9 @@ help:
 	@echo "... aufgabe5.o"
 	@echo "... aufgabe5.i"
 	@echo "... aufgabe5.s"
+	@echo "... aufgabe6.o"
+	@echo "... aufgabe6.i"
+	@echo "... aufgabe6.s"
 .PHONY : help
 
 

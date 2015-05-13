@@ -42,4 +42,5 @@ SET(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/aufgabe1.dir/DependInfo.cmake"
   "CMakeFiles/aufgabe2bis4.dir/DependInfo.cmake"
   "CMakeFiles/aufgabe5.dir/DependInfo.cmake"
+  "CMakeFiles/aufgabe6.dir/DependInfo.cmake"
   )

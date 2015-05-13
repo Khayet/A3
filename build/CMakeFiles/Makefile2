@@ -155,6 +155,41 @@ clean: CMakeFiles/aufgabe5.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/aufgabe6.dir
+
+# All Build rule for target.
+CMakeFiles/aufgabe6.dir/all:
+	$(MAKE) -f CMakeFiles/aufgabe6.dir/build.make CMakeFiles/aufgabe6.dir/depend
+	$(MAKE) -f CMakeFiles/aufgabe6.dir/build.make CMakeFiles/aufgabe6.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/guest-xbgpoV/Dokumente/A3/build/CMakeFiles  4
+	@echo "Built target aufgabe6"
+.PHONY : CMakeFiles/aufgabe6.dir/all
+
+# Include target in all.
+all: CMakeFiles/aufgabe6.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/aufgabe6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/guest-xbgpoV/Dokumente/A3/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aufgabe6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/guest-xbgpoV/Dokumente/A3/build/CMakeFiles 0
+.PHONY : CMakeFiles/aufgabe6.dir/rule
+
+# Convenience name for target.
+aufgabe6: CMakeFiles/aufgabe6.dir/rule
+.PHONY : aufgabe6
+
+# clean rule for target.
+CMakeFiles/aufgabe6.dir/clean:
+	$(MAKE) -f CMakeFiles/aufgabe6.dir/build.make CMakeFiles/aufgabe6.dir/clean
+.PHONY : CMakeFiles/aufgabe6.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/aufgabe6.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

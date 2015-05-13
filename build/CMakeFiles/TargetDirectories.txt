@@ -1,3 +1,4 @@
 /tmp/guest-xbgpoV/Dokumente/A3/build/CMakeFiles/aufgabe1.dir
 /tmp/guest-xbgpoV/Dokumente/A3/build/CMakeFiles/aufgabe2bis4.dir
 /tmp/guest-xbgpoV/Dokumente/A3/build/CMakeFiles/aufgabe5.dir
+/tmp/guest-xbgpoV/Dokumente/A3/build/CMakeFiles/aufgabe6.dir
