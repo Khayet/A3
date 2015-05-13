@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/moka3156/Dokumente/A3
+CMAKE_SOURCE_DIR = /tmp/guest-xbgpoV/Dokumente/A3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/moka3156/Dokumente/A3/build
+CMAKE_BINARY_DIR = /tmp/guest-xbgpoV/Dokumente/A3/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,9 +66,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moka3156/Dokumente/A3/build/CMakeFiles /home/moka3156/Dokumente/A3/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/guest-xbgpoV/Dokumente/A3/build/CMakeFiles /tmp/guest-xbgpoV/Dokumente/A3/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/moka3156/Dokumente/A3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/guest-xbgpoV/Dokumente/A3/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,19 @@ aufgabe2bis4/fast:
 	$(MAKE) -f CMakeFiles/aufgabe2bis4.dir/build.make CMakeFiles/aufgabe2bis4.dir/build
 .PHONY : aufgabe2bis4/fast
 
+#=============================================================================
+# Target rules for targets named aufgabe5
+
+# Build rule for target.
+aufgabe5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe5
+.PHONY : aufgabe5
+
+# fast build rule for target.
+aufgabe5/fast:
+	$(MAKE) -f CMakeFiles/aufgabe5.dir/build.make CMakeFiles/aufgabe5.dir/build
+.PHONY : aufgabe5/fast
+
 aufgabe1.o: aufgabe1.cpp.o
 .PHONY : aufgabe1.o
 
@@ -169,6 +182,30 @@ aufgabe2bis4.cpp.s:
 	$(MAKE) -f CMakeFiles/aufgabe2bis4.dir/build.make CMakeFiles/aufgabe2bis4.dir/aufgabe2bis4.cpp.s
 .PHONY : aufgabe2bis4.cpp.s
 
+aufgabe5.o: aufgabe5.cpp.o
+.PHONY : aufgabe5.o
+
+# target to build an object file
+aufgabe5.cpp.o:
+	$(MAKE) -f CMakeFiles/aufgabe5.dir/build.make CMakeFiles/aufgabe5.dir/aufgabe5.cpp.o
+.PHONY : aufgabe5.cpp.o
+
+aufgabe5.i: aufgabe5.cpp.i
+.PHONY : aufgabe5.i
+
+# target to preprocess a source file
+aufgabe5.cpp.i:
+	$(MAKE) -f CMakeFiles/aufgabe5.dir/build.make CMakeFiles/aufgabe5.dir/aufgabe5.cpp.i
+.PHONY : aufgabe5.cpp.i
+
+aufgabe5.s: aufgabe5.cpp.s
+.PHONY : aufgabe5.s
+
+# target to generate assembly for a file
+aufgabe5.cpp.s:
+	$(MAKE) -f CMakeFiles/aufgabe5.dir/build.make CMakeFiles/aufgabe5.dir/aufgabe5.cpp.s
+.PHONY : aufgabe5.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -177,6 +214,7 @@ help:
 	@echo "... depend"
 	@echo "... aufgabe1"
 	@echo "... aufgabe2bis4"
+	@echo "... aufgabe5"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... aufgabe1.o"
@@ -185,6 +223,9 @@ help:
 	@echo "... aufgabe2bis4.o"
 	@echo "... aufgabe2bis4.i"
 	@echo "... aufgabe2bis4.s"
+	@echo "... aufgabe5.o"
+	@echo "... aufgabe5.i"
+	@echo "... aufgabe5.s"
 .PHONY : help
 
 

@@ -11,7 +11,7 @@ int main()
   std::list<unsigned int> list1(100);
 
   for (std::list<unsigned int>::iterator i = list1.begin(); i != list1.end(); ++i) {
-    *i = std::rand() % 50;
+    *i = std::rand() % 51;
   }
 
   std::vector<unsigned int> vec1(100);
