@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/guest-xbgpoV/Dokumente/A3/aufgabe6.cpp
+iostream
+-
+algorithm
+-
+map
+-
+utility
+-
+
