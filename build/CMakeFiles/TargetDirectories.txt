@@ -1,0 +1,4 @@
+/home/jakob/Documents/Uni/SoSe15/Prog/A3/build/CMakeFiles/aufgabe1.dir
+/home/jakob/Documents/Uni/SoSe15/Prog/A3/build/CMakeFiles/aufgabe2bis4.dir
+/home/jakob/Documents/Uni/SoSe15/Prog/A3/build/CMakeFiles/aufgabe5.dir
+/home/jakob/Documents/Uni/SoSe15/Prog/A3/build/CMakeFiles/aufgabe6.dir

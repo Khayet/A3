@@ -10,14 +10,21 @@ int main(int argc, char* argv[]) {
   std::map<std::string, std::string> persons;
 
   while(true) {
-    std::cout << "please enter name:" << std::endl;
-    std::cin >> name;
-    std::cout << "please enter address:" << std::endl;
-    std::cin >> addr;
+    std::cout << "please enter names (or 'finish'): ";
+    std::getline(std::cin, name);
 
-    //TODO: finish input
+    if (name == "finish") break;
+
+    std::cout << "please enter address: ";
+    std::getline(std::cin, addr);
+
     persons.insert(std::make_pair(name, addr));
   }
+
+  std::cout << "search for person: ";
+  std::getline(std::cin, name);
+  std::cout << "The address of " << name << " is: " 
+            << persons[name] << std::endl;
 
   return 0;
 }
