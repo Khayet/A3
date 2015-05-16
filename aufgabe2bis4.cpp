@@ -11,7 +11,7 @@ int main()
   std::list<unsigned int> list1(100);
 
   for (std::list<unsigned int>::iterator i = list1.begin(); i != list1.end(); ++i) {
-    *i = std::rand() % 50;
+    *i = std::rand() % 51;
   }
 
   std::vector<unsigned int> vec1(100);
@@ -21,12 +21,27 @@ int main()
   std::cout << "-------------------" << std::endl;
 
   std::map<unsigned int,int> ints{};
-  for (unsigned int i{0}; i < vec1.size(); ++i) {
-    ints.insert(std::pair<unsigned int, int>(vec1[i], 0));
+  for (int i = 0; i <= 50; ++i) {
+    ints.insert(std::pair<unsigned int, int>(i, 0));
   }
 
-  int numbersCount{0};
-  std::cout << ints.size() << std::endl;
+  for (int i : vec1) {
+    ints.at(i) += 1;
+  }
+
+  unsigned int numbersCount = 0;
+  for (auto it = ints.cbegin(); it != ints.cend(); ++ it) {
+    if (it->second != 0) ++numbersCount; 
+  }
+
+  std::cout << "not in list: " << std::endl;
+  for (int i = 0; i <= 50; ++i) {
+    if (ints[i] == 0) std::cout << i << std::endl;
+  }
+
+  std::cout << "-------------------" << std::endl;
+
+  std::cout << "number of list members: " << numbersCount << std::endl;
 
   return 0;
 }
