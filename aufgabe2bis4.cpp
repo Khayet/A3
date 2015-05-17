@@ -18,7 +18,6 @@ int main()
   std::vector<unsigned int> vec1(100);
   std::copy(list1.begin(), list1.end(), vec1.begin());
 
-
 /* print vector:
   std::copy(vec1.begin(), vec1.end(), 
             std::ostream_iterator<unsigned int>(std::cout, "\n"));

@@ -12,7 +12,7 @@ bool is_odd(unsigned int n) {
   return !is_even(n);
 }
 
-TEST_CASE("describe_factorial", "[aufgabe3]")
+TEST_CASE("all_of", "[aufgabe5]")
 {
   std::vector<unsigned int> v(100);
 

@@ -116,6 +116,19 @@ aufgabe1/fast:
 .PHONY : aufgabe1/fast
 
 #=============================================================================
+# Target rules for targets named aufgabe10
+
+# Build rule for target.
+aufgabe10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe10
+.PHONY : aufgabe10
+
+# fast build rule for target.
+aufgabe10/fast:
+	$(MAKE) -f CMakeFiles/aufgabe10.dir/build.make CMakeFiles/aufgabe10.dir/build
+.PHONY : aufgabe10/fast
+
+#=============================================================================
 # Target rules for targets named aufgabe2bis4
 
 # Build rule for target.
@@ -154,6 +167,32 @@ aufgabe6/fast:
 	$(MAKE) -f CMakeFiles/aufgabe6.dir/build.make CMakeFiles/aufgabe6.dir/build
 .PHONY : aufgabe6/fast
 
+#=============================================================================
+# Target rules for targets named aufgabe8
+
+# Build rule for target.
+aufgabe8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe8
+.PHONY : aufgabe8
+
+# fast build rule for target.
+aufgabe8/fast:
+	$(MAKE) -f CMakeFiles/aufgabe8.dir/build.make CMakeFiles/aufgabe8.dir/build
+.PHONY : aufgabe8/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe9
+
+# Build rule for target.
+aufgabe9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe9
+.PHONY : aufgabe9
+
+# fast build rule for target.
+aufgabe9/fast:
+	$(MAKE) -f CMakeFiles/aufgabe9.dir/build.make CMakeFiles/aufgabe9.dir/build
+.PHONY : aufgabe9/fast
+
 aufgabe1.o: aufgabe1.cpp.o
 .PHONY : aufgabe1.o
 
@@ -177,6 +216,30 @@ aufgabe1.s: aufgabe1.cpp.s
 aufgabe1.cpp.s:
 	$(MAKE) -f CMakeFiles/aufgabe1.dir/build.make CMakeFiles/aufgabe1.dir/aufgabe1.cpp.s
 .PHONY : aufgabe1.cpp.s
+
+aufgabe10.o: aufgabe10.cpp.o
+.PHONY : aufgabe10.o
+
+# target to build an object file
+aufgabe10.cpp.o:
+	$(MAKE) -f CMakeFiles/aufgabe10.dir/build.make CMakeFiles/aufgabe10.dir/aufgabe10.cpp.o
+.PHONY : aufgabe10.cpp.o
+
+aufgabe10.i: aufgabe10.cpp.i
+.PHONY : aufgabe10.i
+
+# target to preprocess a source file
+aufgabe10.cpp.i:
+	$(MAKE) -f CMakeFiles/aufgabe10.dir/build.make CMakeFiles/aufgabe10.dir/aufgabe10.cpp.i
+.PHONY : aufgabe10.cpp.i
+
+aufgabe10.s: aufgabe10.cpp.s
+.PHONY : aufgabe10.s
+
+# target to generate assembly for a file
+aufgabe10.cpp.s:
+	$(MAKE) -f CMakeFiles/aufgabe10.dir/build.make CMakeFiles/aufgabe10.dir/aufgabe10.cpp.s
+.PHONY : aufgabe10.cpp.s
 
 aufgabe2bis4.o: aufgabe2bis4.cpp.o
 .PHONY : aufgabe2bis4.o
@@ -250,6 +313,78 @@ aufgabe6.cpp.s:
 	$(MAKE) -f CMakeFiles/aufgabe6.dir/build.make CMakeFiles/aufgabe6.dir/aufgabe6.cpp.s
 .PHONY : aufgabe6.cpp.s
 
+aufgabe8.o: aufgabe8.cpp.o
+.PHONY : aufgabe8.o
+
+# target to build an object file
+aufgabe8.cpp.o:
+	$(MAKE) -f CMakeFiles/aufgabe8.dir/build.make CMakeFiles/aufgabe8.dir/aufgabe8.cpp.o
+.PHONY : aufgabe8.cpp.o
+
+aufgabe8.i: aufgabe8.cpp.i
+.PHONY : aufgabe8.i
+
+# target to preprocess a source file
+aufgabe8.cpp.i:
+	$(MAKE) -f CMakeFiles/aufgabe8.dir/build.make CMakeFiles/aufgabe8.dir/aufgabe8.cpp.i
+.PHONY : aufgabe8.cpp.i
+
+aufgabe8.s: aufgabe8.cpp.s
+.PHONY : aufgabe8.s
+
+# target to generate assembly for a file
+aufgabe8.cpp.s:
+	$(MAKE) -f CMakeFiles/aufgabe8.dir/build.make CMakeFiles/aufgabe8.dir/aufgabe8.cpp.s
+.PHONY : aufgabe8.cpp.s
+
+aufgabe9.o: aufgabe9.cpp.o
+.PHONY : aufgabe9.o
+
+# target to build an object file
+aufgabe9.cpp.o:
+	$(MAKE) -f CMakeFiles/aufgabe9.dir/build.make CMakeFiles/aufgabe9.dir/aufgabe9.cpp.o
+.PHONY : aufgabe9.cpp.o
+
+aufgabe9.i: aufgabe9.cpp.i
+.PHONY : aufgabe9.i
+
+# target to preprocess a source file
+aufgabe9.cpp.i:
+	$(MAKE) -f CMakeFiles/aufgabe9.dir/build.make CMakeFiles/aufgabe9.dir/aufgabe9.cpp.i
+.PHONY : aufgabe9.cpp.i
+
+aufgabe9.s: aufgabe9.cpp.s
+.PHONY : aufgabe9.s
+
+# target to generate assembly for a file
+aufgabe9.cpp.s:
+	$(MAKE) -f CMakeFiles/aufgabe9.dir/build.make CMakeFiles/aufgabe9.dir/aufgabe9.cpp.s
+.PHONY : aufgabe9.cpp.s
+
+circle.o: circle.cpp.o
+.PHONY : circle.o
+
+# target to build an object file
+circle.cpp.o:
+	$(MAKE) -f CMakeFiles/aufgabe8.dir/build.make CMakeFiles/aufgabe8.dir/circle.cpp.o
+.PHONY : circle.cpp.o
+
+circle.i: circle.cpp.i
+.PHONY : circle.i
+
+# target to preprocess a source file
+circle.cpp.i:
+	$(MAKE) -f CMakeFiles/aufgabe8.dir/build.make CMakeFiles/aufgabe8.dir/circle.cpp.i
+.PHONY : circle.cpp.i
+
+circle.s: circle.cpp.s
+.PHONY : circle.s
+
+# target to generate assembly for a file
+circle.cpp.s:
+	$(MAKE) -f CMakeFiles/aufgabe8.dir/build.make CMakeFiles/aufgabe8.dir/circle.cpp.s
+.PHONY : circle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -257,14 +392,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... aufgabe1"
+	@echo "... aufgabe10"
 	@echo "... aufgabe2bis4"
 	@echo "... aufgabe5"
 	@echo "... aufgabe6"
+	@echo "... aufgabe8"
+	@echo "... aufgabe9"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... aufgabe1.o"
 	@echo "... aufgabe1.i"
 	@echo "... aufgabe1.s"
+	@echo "... aufgabe10.o"
+	@echo "... aufgabe10.i"
+	@echo "... aufgabe10.s"
 	@echo "... aufgabe2bis4.o"
 	@echo "... aufgabe2bis4.i"
 	@echo "... aufgabe2bis4.s"
@@ -274,6 +415,15 @@ help:
 	@echo "... aufgabe6.o"
 	@echo "... aufgabe6.i"
 	@echo "... aufgabe6.s"
+	@echo "... aufgabe8.o"
+	@echo "... aufgabe8.i"
+	@echo "... aufgabe8.s"
+	@echo "... aufgabe9.o"
+	@echo "... aufgabe9.i"
+	@echo "... aufgabe9.s"
+	@echo "... circle.o"
+	@echo "... circle.i"
+	@echo "... circle.s"
 .PHONY : help
 
 

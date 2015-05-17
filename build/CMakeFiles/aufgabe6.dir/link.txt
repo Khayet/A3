@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++0x    CMakeFiles/aufgabe6.dir/aufgabe6.cpp.o  -o aufgabe6 -rdynamic 

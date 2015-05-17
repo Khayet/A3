@@ -23,8 +23,15 @@ int main(int argc, char* argv[]) {
 
   std::cout << "search for person: ";
   std::getline(std::cin, name);
-  std::cout << "The address of " << name << " is: " 
-            << persons[name] << std::endl;
+  
+  auto i = persons.find(name);
+
+  if (i != persons.end()) {
+    std::cout << "The address of " << name << " is: " 
+              << i->second << "\n";
+  } else {
+    std::cout << "No persons with name " << name << " found." << "\n";
+  }
 
   return 0;
 }
