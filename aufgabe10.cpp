@@ -5,11 +5,11 @@
 #include <vector>
 
 //can only return vector, deque and list:
-template<typename TRet, typename TFirst, typename TSecond>
-TRet concatenate(TFirst const& lhs, TSecond const& rhs) {
+/*template<typename TFirst, typename TSecond>
+TFirst concatenate(TFirst const& lhs, TSecond const& rhs) {
   auto endIt = lhs.end();
 
-  TRet res;
+  TFirst res;
   auto it = res.begin();
 
   for (auto iter = lhs.begin(); iter != lhs.end(); ++iter) {
@@ -25,15 +25,35 @@ TRet concatenate(TFirst const& lhs, TSecond const& rhs) {
   }
 
   return res;
+}*/
+
+template<typename T>
+T concatenate(T const& first, T const& second) {
+  T res;
+  auto it = res.begin();
+
+  for (auto iter = first.begin(); iter != first.end(); ++iter) {
+    res.insert(it, iter);
+    ++it;
+  }
+
+  it = res.back();
+
+  for (auto iter = second.begin(); iter != second.end(); ++iter) {
+    res.insert(it, iter);
+    ++it;
+  }
+
+  return res;
 }
 
 TEST_CASE("concatenate", "[aufgabe10]") {
   std::vector<char> v{'a', 'b', 'c'};
-  std::list<char> l{'d', 'e', 'f'};
+  std::vector<char> l{'d', 'e', 'f'};
 
-  //TODO: fix bug
-  std::vector<char> v2;
-  v2 = concatenate(v, l);
+  //TODO: fix
+  //std::vector<char> v2;
+  std::vector<char> v2 = concatenate<std::vector<char>>(v, l);
 }
 
 int main(int argc, char* argv[]) {

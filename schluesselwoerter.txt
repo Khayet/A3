@@ -1,0 +1,43 @@
+Freispeicher/Freestore
+  Der Freestore ist der Bereich des Arbeitsspeichers, der zu keinem Objekt 
+  gehoert. Jedes mal, wenn ein Objekt instanziiert wird, wird ein Teil des 
+  Freestores fuer dieses reserviert.
+
+Template
+  Templates tauchen entweder als Template-Klassen oder als Template-Funktionen
+  auf. Sie ermoeglichen es dem Programmierer, Klassen und Funktionen generisch
+  zu programmieren, dass heisst fuer mehrere Typen (oder alle). Dafuer muss
+  einer Template-Funktion oder -Klasse der Typ als Parameter uebergeben werden.
+
+STL
+  Die Standard Template Library implementiert eine Menge nuetzlicher Template-
+  Funktionen und -Klassen sehr effizient, u.a. Container, Iteratoren und Algorithmen. Heute ist die STL Teil des C++-Standards.
+
+Sequenzielle Container
+  Container sind Objekte, die andere Objekte beinhalten. Sequenzielle Container sind Container, die ihre Elemente in einer Reihenfolge speichern.
+
+Assoziative Container
+  In Assoziative Container ist jedem Element ein Key zugeordnet, wobei dieser auch der Wert des Elements sein kann (Set und Multiset). Assoziative Container ermoeglichen es, auf jedes Element sehr effizient anhand seines Keys zuzugreifen.
+
+Iteratoren
+  Iteratoren sind Objekte, die es ermoeglichen, auf Elemente eines Containers zuzugreifen. 
+
+STL-Algorithmen
+  Die Algorithmen der STL sind Funktionen, die auf STL-Containern arbeiten.
+
+Komplexitaet std::vector
+  Einfuegen/Loeschen eines Elements am Ende: O(1)
+  Einfuegen/Loeschen an beliebiger Stelle: O(N)
+  Finden eines Elements mit bestimmten Wert: O(N)
+
+Komplexitaet std::list
+  Einfuegen an beliebiger Stelle: O(1)
+  Finden eines Elements mit bestimmten Wert: O(N)
+
+Komplexitaet std::set
+   Einfuegen von n elementen: Nlog(size+N)
+   Finden eines Elements anhand des Keys: log(N)
+
+Komplexitaet std::map
+  Einfuegen von n elementen: Nlog(size+N)
+  Finden eines Elements anhand des Keys: log(N)
